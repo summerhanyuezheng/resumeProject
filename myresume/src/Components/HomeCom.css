@@ -1,0 +1,76 @@
+.whole-home-com {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  
+  
+}
+
+.a-line{
+  margin-left: 30px;
+  margin-right: 31px;
+  height: 20px;
+  width: 150px;
+  background: linear-gradient(to right,
+    #66ccff, #f1e880);
+}
+
+
+
+.full-stack-img img {
+  width: 370px;
+  position: relative;
+  left: 10px;
+}
+
+.full-stack-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:  
+    0 0 0 2em #66ccff;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+ 
+}
+
+.roles-list{
+  width: 350px;
+  
+  display: flex;
+  border-radius: 10px;
+  /* background-color: rgb(162, 221, 241); */
+  box-shadow: 0 0 0 0.4em #090909,
+  0 0 0 2em #f1e880;
+  
+  
+}
+
+
+.roles-list ul{
+  list-style: none;
+  font-family: sans-serif;
+  color: rgba(132, 134, 138, 0.913);
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  font-size: 12px;
+}
+
+
+.roles-list span{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: rgba(80, 81, 82, 0.913);
+  text-align: left;
+  margin-left: 20px;
+  
+
+}

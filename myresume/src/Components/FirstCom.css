@@ -1,0 +1,38 @@
+.first-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(230, 186, 220, 0.923);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 字体引入在 public---> index.html*/
+.my-name {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.letter-h {
+  color: rgba(18, 59, 239, 0.917);
+}
+
+.my-pic {
+  width: 400px;
+  height: 400px;
+  margin-left: 40px;
+}
+
+.flower-pic {
+  width: 120px;
+  /* margin-top: -55px; */
+
+  margin-right: -40px;
+}
+
+.sec-flower-pic {
+  width: 50px;
+  margin-bottom: 80px;
+}
