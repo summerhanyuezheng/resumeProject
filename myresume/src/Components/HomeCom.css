@@ -1,11 +1,17 @@
 .whole-home-com {
+  
+  
+  margin: 0 auto;
+
+}
+
+.home-com-container{
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
-  
-  
+
 }
 
 .a-line{
