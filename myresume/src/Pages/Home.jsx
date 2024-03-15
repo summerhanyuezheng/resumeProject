@@ -5,6 +5,8 @@ import FirstCom from '../Components/FirstCom'
 import WorkCom from '../Components/WorkCom'
 import SkillsCom from '../Components/SkillsCom'
 import HomeComGrid from '../Components/HomeComGrid'
+import ContactForm from '../Components/FrontEnd/ConatctFrontEnd'
+
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
    
     <WorkCom></WorkCom>
     <SkillsCom></SkillsCom>
+    <ContactForm></ContactForm>
+   
     
    
     </>

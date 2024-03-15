@@ -10,7 +10,7 @@ export default function HomeComGrid() {
       style={{ marginLeft: "auto", marginRight: "auto", marginTop:"100px", marginBottom:"100px",width: "100%", height: "100%",}}
     >
       
-        <Grid container justifyContent="center" alignItems="center" spacing={4}>
+        <Grid container justifyContent="center" alignItems="center" spacing={4} sx={{paddingTop:'20px'}}>
           {/* Fullstack Image */}
           <Grid item>
             <Box

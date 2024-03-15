@@ -54,7 +54,7 @@ const skills = [
 const experiences = [
   { year: "2019-2020", role: "Frontend Developer", company: "XX Company" },
   { year: "2020-2023", role: "FullStack Developer", company: "XX Company" },
-  // ... other experiences
+  
 ];
 
 function SkillsCom() {
