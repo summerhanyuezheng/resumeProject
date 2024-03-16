@@ -1,11 +1,12 @@
 import React from 'react'
 import NavBar from '../Components/NavBar'
-import HomeCom from '../Components/HomeCom'
 import FirstCom from '../Components/FirstCom'
 import WorkCom from '../Components/WorkCom'
 import SkillsCom from '../Components/SkillsCom'
 import HomeComGrid from '../Components/HomeComGrid'
-import ContactForm from '../Components/FrontEnd/ConatctFrontEnd'
+
+import ContactPage from '../Components/FrontEnd/ContactPageCom'
+
 
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
    
     <WorkCom></WorkCom>
     <SkillsCom></SkillsCom>
-    <ContactForm></ContactForm>
+    {/* <ContactForm></ContactForm> */}
+    <ContactPage></ContactPage>
    
     
    
