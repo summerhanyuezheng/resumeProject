@@ -4,10 +4,10 @@ import mypic from "./me.png";
 import flowerpic from "./flower.png";
 
 export default function FirstCom() {
-
+// #F875AA
   return (
     <div className="whole-skill-com" style={{width:"100%", height: "100%",backgroundColor: "rgba(230, 186, 220, 0.923)",  }}>
-       <Container sx={{ display: "flex", alignItems: "center", justifyContent: "center", paddingTop:"250px", paddingBottom:'200px'}}>
+       <Container sx={{ display: "flex", alignItems: "center", justifyContent: "center", paddingTop:"250px", paddingBottom:'140px'}}>
       <Grid container justifyContent="center" alignItems="center" spacing={2}  >
         {/* flowers */}
         
