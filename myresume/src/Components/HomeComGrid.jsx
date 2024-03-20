@@ -5,7 +5,7 @@ import fullstack from "./fullstack.jpg";
 export default function HomeComGrid() {
   return (
     
-   <div
+   <div id="about"
       className="whole-home-com-grid"
       style={{ marginLeft: "auto", marginRight: "auto", marginTop:"100px", marginBottom:"100px",width: "100%", height: "100%",}}
     >

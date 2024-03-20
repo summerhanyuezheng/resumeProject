@@ -6,7 +6,7 @@ import ProjectList from "./ProjectList";
 
 export default function WorkCom() {
   return (
-    <div className="whole-work-com">
+    <div id="work" className="whole-work-com">
       <Typography
         variant="h4"
         component="h2"

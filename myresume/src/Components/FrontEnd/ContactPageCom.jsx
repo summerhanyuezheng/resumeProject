@@ -41,7 +41,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div
+    <div id="contact"
       className="whole-contact"
       style={{
         width: "100%",
@@ -51,7 +51,7 @@ const ContactPage = () => {
     >
         <Container maxWidth="lg" sx={{  paddingTop:"100px" , paddingBottom:"100px" }}>
       <Typography  gutterBottom sx={{ fontSize: "2.5rem", fontWeight: "700", marginBottom: "60px",  }}>
-        Take A <span style={{color:"#765827"}}>Coffee</span> & Chat With Me
+        Grab A <span style={{color:"#765827"}}>Coffee</span> & Chat With Me
       </Typography>
       <Box
             sx={{

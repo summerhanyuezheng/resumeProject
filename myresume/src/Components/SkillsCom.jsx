@@ -59,84 +59,89 @@ const experiences = [
 
 function SkillsCom() {
   return (
-    // container centers things
-    <Container maxWidth='lg' className="whole-skills-com">
+    <>
+    
+    <Container id='skills' maxWidth='lg' className="whole-skills-com">
 
    
-      <Typography
-        variant="h4"
-        component="h2"
-        sx={{
-          fontWeight: "bold",
-          textAlign: "center",
-          marginBottom: "70px",
-          paddingTop: "10px",
-          fontSize: "2.5rem",
-          marginLeft:'auto',
-          marginRight:'auto'
-        }}
+<Typography
+  variant="h4"
+  component="h2"
+  sx={{
+    fontWeight: "bold",
+    textAlign: "center",
+    marginBottom: "70px",
+    paddingTop: "10px",
+    fontSize: "2.5rem",
+    marginLeft:'auto',
+    marginRight:'auto'
+  }}
+>
+  Skills & Experiences
+</Typography>
+
+<Grid container spacing={3} sx={{  marginLeft:'auto', marginRight:"auto" , display:"flex", justifyContent:"space-around"}}>
+  {/* Skills section */}
+  <Grid item xs={12} sm={12} md={6} lg={4}>
+    
+    <Grid container spacing={4} justifyContent="spaceAround"  >
+      {skills.map((skill, index) => (
+        <Grid item key={index} xs={12} sm={6} md={4}>
+          <Paper
+            elevation={3}
+            sx={{
+              textAlign: "center",
+              borderRadius: "50%",
+              height: "90px",
+              width: "90px",
+              padding: "0px",
+
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "auto",
+            }}
+          >
+            {skill.icon}
+          </Paper>
+          <Typography
+            variant="subtitle1"
+            sx={{
+              fontSize: "12px",
+              fontFamily: "sans-serif",
+              fontWeight: "600",
+              color: "#6b7688",
+              marginTop: "10px",
+            }}
+          >
+            {skill.label}
+          </Typography>
+        </Grid>
+      ))}
+    </Grid>
+  </Grid>
+  {/* Experience section */}
+  <Grid item xs={12} md={4} sx={{display:"flex", flexDirection:"column", justifyContent:"space-around", marginLeft:"50px"}}>
+    
+    {experiences.map((exp, index) => (
+      <Box
+        key={index}
+        variant="subtitle1"
+        sx={{  textAlign:'left', }}
+        
       >
-        Skills & Experiences
-      </Typography>
-
-      <Grid container spacing={3} sx={{  marginLeft:'auto', marginRight:"auto" , display:"flex", justifyContent:"space-around"}}>
-        {/* Skills section */}
-        <Grid item xs={12} sm={12} md={6} lg={4}>
-          
-          <Grid container spacing={4} justifyContent="spaceAround"  >
-            {skills.map((skill, index) => (
-              <Grid item key={index} xs={12} sm={6} md={4}>
-                <Paper
-                  elevation={3}
-                  sx={{
-                    textAlign: "center",
-                    borderRadius: "50%",
-                    height: "90px",
-                    width: "90px",
-                    padding: "0px",
-
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    margin: "auto",
-                  }}
-                >
-                  {skill.icon}
-                </Paper>
-                <Typography
-                  variant="subtitle1"
-                  sx={{
-                    fontSize: "12px",
-                    fontFamily: "sans-serif",
-                    fontWeight: "600",
-                    color: "#6b7688",
-                    marginTop: "10px",
-                  }}
-                >
-                  {skill.label}
-                </Typography>
-              </Grid>
-            ))}
-          </Grid>
-        </Grid>
-        {/* Experience section */}
-        <Grid item xs={12} md={4} sx={{display:"flex", flexDirection:"column", justifyContent:"space-around", marginLeft:"50px"}}>
-          
-          {experiences.map((exp, index) => (
-            <Box
-              key={index}
-              variant="subtitle1"
-              sx={{  textAlign:'left', }}
-              
-            >
-              <Typography sx={{marginRight:"20px", fontWeight:"600"}}>{exp.year} </Typography>
-              <Typography>{exp.role} at {exp.company}</Typography>
-              
-            </Box>
-          ))}
-        </Grid>
-      </Grid>
-      </Container>
+        <Typography sx={{marginRight:"20px", fontWeight:"600"}}>{exp.year} </Typography>
+        <Typography>{exp.role} at {exp.company}</Typography>
+        
+      </Box>
+    ))}
+  </Grid>
+</Grid>
+</Container>
+    
+    </>
+    // container centers things
+   
     
   );
 }

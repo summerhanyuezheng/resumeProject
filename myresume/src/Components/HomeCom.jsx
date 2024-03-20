@@ -4,8 +4,8 @@ import "./HomeCom.css";
 
 export default function HomeCom() {
   return (
-    <>
-      <div className="whole-home-com">
+    
+      <div id="about" className="whole-home-com">
         <div className="home-com-container">
           <div className="full-stack-img">
             <img src={fullstack} alt="" />
@@ -24,6 +24,6 @@ export default function HomeCom() {
           </div>
         </div>
       </div>
-    </>
+    
   );
 }
