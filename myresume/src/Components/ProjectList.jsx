@@ -20,8 +20,10 @@ const projects = [
     description:
       "Sneat – Material Design React Admin Dashboard Template – is the most developer friendly & highly customizable Admin Dashboard Template based on MUI v5.",
     imageUrl: dashboard,
-    tags: ["-ReactJs-"],
+    tags: ["-ReactJs",
+    "NodeJs-"],
     link: "https://dashboardplus.netlify.app",
+    git:"https://github.com/summerhanyuezheng/dashboard.git"
   },
   {
     title: "Covilla",
@@ -30,14 +32,16 @@ const projects = [
     imageUrl: covilla,
     tags: ["-Javascript-"],
     link: "https://covillajs.netlify.app",
+    git:"https://github.com/summerhanyuezheng/Covilla.git"
   },
   {
     title: "Eyewear",
     description:
       "Buying eyewear should leave you happy and good-looking, with money in your pocket. Glasses, sunglasses, and contacts—we’ve got your eyes covered.",
     imageUrl: eye,
-    tags: ["-NodeJs-Redux-"],
+    tags: ["-Firebase,Redux-"],
     link: "https://eyewear.netlify.app",
+    git:"https://github.com/summerhanyuezheng/eyewear.git"
   },
   {
     title: "StackYourWeather",
@@ -46,6 +50,7 @@ const projects = [
     imageUrl: weather,
     tags: ["-HTML-"],
     link: "https://stackyourweather.netlify.app",
+    git:"https://github.com/summerhanyuezheng/weatherstack.git"
   },
 ];
 
@@ -114,6 +119,10 @@ function ProjectList() {
               >
                 {/* Icons */}
                 <Box>
+                  <a href={project.git}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <GitHubIcon
                     sx={{
                       color: "#fff",
@@ -125,6 +134,10 @@ function ProjectList() {
                       },
                     }}
                   />
+
+
+                </a>
+                  
                   <a
                     href={project.link}
                     target="_blank"

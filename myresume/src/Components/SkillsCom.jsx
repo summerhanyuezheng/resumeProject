@@ -2,12 +2,12 @@ import React from "react";
 import { Grid, Typography, Paper,Box, Container } from "@mui/material";
 
 import nodejs from "./SkillsIcons/nodejs.png";
-import bootstrap from "./SkillsIcons/bootstrap.png";
+import mongo from "./SkillsIcons/mongo.png";
 import css from "./SkillsIcons/css.png";
 import git from "./SkillsIcons/git.png";
 import html from "./SkillsIcons/html.png";
 import js from "./SkillsIcons/js.png";
-import sass from "./SkillsIcons/sass.png";
+import firebase from "./SkillsIcons/firebase.png";
 import redux from "./SkillsIcons/redux.png";
 import material from "./SkillsIcons/material.png";
 import "./SkillsCom.css";
@@ -18,8 +18,8 @@ const skills = [
     label: "NodeJS",
   },
   {
-    icon: <img src={bootstrap} alt="NodeJS" style={{ width: "45px" }} />,
-    label: "Bootstrap5",
+    icon: <img src={mongo} alt="NodeJS" style={{ width: "45px" }} />,
+    label: "MongoDB",
   },
   {
     icon: <img src={css} alt="NodeJS" style={{ width: "45px" }} />,
@@ -38,8 +38,8 @@ const skills = [
     label: "JavaScripts",
   },
   {
-    icon: <img src={sass} alt="NodeJS" style={{ width: "45px" }} />,
-    label: "Sass",
+    icon: <img src={firebase} alt="NodeJS" style={{ width: "45px" }} />,
+    label: "Firebase",
   },
   {
     icon: <img src={redux} alt="NodeJS" style={{ width: "45px" }} />,
@@ -52,8 +52,8 @@ const skills = [
 ];
 
 const experiences = [
-  { year: "2019-2020", role: "Frontend Developer", company: "XX Company" },
-  { year: "2020-2023", role: "FullStack Developer", company: "XX Company" },
+  { year: "2020-2023", role: "Computer Science, M.S,", company: "California State University, Fullerton" },
+  { year: "2023-2024", role: "FullStack Enginner Bootcamp", company: "Solely Bootcamp" },
   
 ];
 
