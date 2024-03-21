@@ -71,7 +71,7 @@ function SkillsCom() {
     fontWeight: "bold",
     textAlign: "center",
     marginBottom: "70px",
-    paddingTop: "10px",
+    paddingTop: "70px",
     fontSize: "2.5rem",
     marginLeft:'auto',
     marginRight:'auto'

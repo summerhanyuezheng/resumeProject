@@ -68,7 +68,7 @@ const ContactPage = () => {
             }}
           >
             <EmailIcon sx={{ marginRight: "20px", color:"white"  }}></EmailIcon>
-            <Typography sx={{color:'white'}}>Myemail@gmail.com</Typography>
+            <Typography sx={{color:'white'}}>summerworkemail1717@gmail.com</Typography>
           </Box>
 
 

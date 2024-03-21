@@ -14,7 +14,7 @@ export default function WorkCom() {
           fontWeight: "bold",
           textAlign: "center",
           marginBottom: "50px",
-          paddingTop: "70px",
+          paddingTop: "120px",
         }}
       >
         My Creative
