@@ -53,7 +53,7 @@ const skills = [
 
 const experiences = [
   { year: "2020-2023", role: "Computer Science, M.S,", company: "California State University, Fullerton" },
-  { year: "2023-2024", role: "FullStack Enginner Bootcamp", company: "Solely Bootcamp" },
+  { year: "2023-2024", role: "FullStack Enginner", company: "Solely Bootcamp" },
   
 ];
 
