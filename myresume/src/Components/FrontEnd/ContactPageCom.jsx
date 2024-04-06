@@ -73,7 +73,7 @@ const ContactPage = () => {
 
 
           {formSubmitted ? (
-          <><Typography gutterBottom sx={{ fontSize: "2.5rem", fontWeight: "700", marginBottom: "60px", }}>Thank You For Getting in touch!</Typography><img style={{width:"180px", paddingBottom:'0px'}}  src={thanks} alt="" /></>
+          <><Typography gutterBottom sx={{ fontSize: "2.5rem", fontWeight: "700", marginBottom: "60px", }}>Thank You For Getting In Touch!</Typography><img style={{width:"180px", paddingBottom:'0px'}}  src={thanks} alt="" /></>
         )  : (
       <form onSubmit={handleSubmit}>
         <Grid container spacing={3}>

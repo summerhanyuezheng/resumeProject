@@ -28,7 +28,7 @@ const projects = [
   {
     title: "Covilla",
     description:
-      "Sneat – Material Design React Admin Dashboard Template – is the most developer friendly & highly customizable Admin Dashboard Template based on MUI v5.",
+      "Covilla:  Features several animations,crafted with advanced JavaScript to enhance your journey. interactive experience that showcases the potential of web development.",
     imageUrl: covilla,
     tags: ["-Javascript-"],
     link: "https://covillajs.netlify.app",
@@ -37,7 +37,7 @@ const projects = [
   {
     title: "Eyewear",
     description:
-      "Buying eyewear should leave you happy and good-looking, with money in your pocket. Glasses, sunglasses, and contacts—we’ve got your eyes covered.",
+    "Discover the joy of purchasing eyewear.This is a sophisticated e-commerce platform, using both front-end and back-end technologies, to offer you an enriching shopping experience.",
     imageUrl: eye,
     tags: ["-Firebase,Redux-"],
     link: "https://eyewear.netlify.app",
